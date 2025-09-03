@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
     int num = 282;
+    int org =num;
     int res = 0;
     while (num!=0)
     {
@@ -9,6 +10,14 @@ int main(){
         num = num/10;
         /* code */
         printf("%d\n",res);
+    }if (org=res)
+    {
+        printf("the number is penidrom");
+        /* code */
+    }else{
+        printf("not penidrom");
     }
+    
+    
     
 }
