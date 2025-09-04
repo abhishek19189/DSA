@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int num = 282;
+    int num = 1111;
     int org =num;
     int res = 0;
     while (num!=0)
@@ -18,6 +18,6 @@ int main(){
         printf("not penidrom");
     }
     
-    
+    return 0 ;
     
 }
