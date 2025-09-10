@@ -15,6 +15,7 @@
 
 
 
+//dicrement order
 
 
 // #include<stdio.h>
@@ -22,7 +23,7 @@
 //     for (int i=5; i>0; i--){
 //         for (int j = 0; j<i;j++){
         
-//             printf(" * ");
+//             printf("%d\n",j);
 //         }
 //         printf("\n");
 //     }
@@ -31,20 +32,17 @@
 
 #include<stdio.h>
 int main(){
-    for (int i=0; i<3; i++){
-        for (int j = 0; j<=1; j++)
-        {
-            printf("__");
-        }
+    for (int i=0; i<=5; i++){
+        // for (int j = 0; j<=1; j++)
+        // {
+        //     printf(" ");
+        // }
         
-        for (int k = 3; k>i ; k--)
+        for (int k = 5; k>=i ; k--)
         {
-            printf("*");
+            printf("%d",k);
         }
         
         printf("\n");
     }
     }
-    
-
-
