@@ -55,8 +55,8 @@ int main(){
             printf("%c",'A'+k);
         }
         for(int l=0; l<i;l++){
-            printf("%c",);
+            printf("%c",l);
         }
         printf("\n");
     }
- }
+}
